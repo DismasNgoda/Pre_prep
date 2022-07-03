@@ -21,4 +21,40 @@
     color: black;
     padding-top: 1%;
 }
-  
+.body-container {
+    border: 3px solid #fff;
+    padding: 40px;
+}
+
+.myText{
+    width: 40%;
+    float: left;
+    padding: 20px;
+} 
+.img1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 20px;
+} 
+.p1{
+    font-style: Space Grotesk;
+    font-size: 250%;
+    color: #0F298B;
+}
+.p2{
+    ont-style: Space Grotesk;
+    font-size: 150%;
+}
+.learnMoreBtn{
+font-size: 150%;
+background-color: blue;
+border-top-left-radius:25px;  
+border-top-right-radius:25px;  
+border-bottom-right-radius:25px;  
+border-bottom-left-radius:25px;
+color: white;
+}
+.learnMoreImg{
+    width: 10%;
+}
