@@ -31,8 +31,9 @@
     float: left;
     padding: 20px;
 } 
+
 .img1{
-    width: 50%;
+    width: 55%;
     height: 100%;
     float: left;
     padding: 20px;
@@ -57,4 +58,38 @@ color: white;
 }
 .learnMoreImg{
     width: 10%;
+}
+.dropDown .search{
+    display: inline-block;
+    position: relative;
+    padding: 60px 10px;
+    float: left;
+    justify-content: space-between;
+}
+.searchBox{
+    position: relative;
+    padding: 60px;
+    float: left;
+    display: flex;
+}
+.sectionTitle{
+    padding: 50px;
+
+}
+.findHome{
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+.makePayments{
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 20px;  
+}
+.makeItOfficial{
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 20px;
 }
