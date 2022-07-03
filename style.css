@@ -1,0 +1,24 @@
+.topMenu {
+    background-color: #f8f9fc;
+    overflow: hidden;
+  }
+  
+.topMenu a {
+    font-style: Space Grotesk,;
+    float: center;
+    color: #black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topMenu a.active {
+    background-color: #2549D3;
+    color: black;
+  }
+.btnGetstarted{
+    float: right;
+    color: black;
+    padding-top: 1%;
+}
+  
