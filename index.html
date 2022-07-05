@@ -1,163 +1,240 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vallie's Estate</title>
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style2.css">
+<script src="https://kit.fontawesome.com/0a0afee909.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="topMenu">
-            <a class="active" href="#home">Home</a>
-            <a href="#rent">Rent</a>
-            <a href="#land">Land</a>
-            <a href="#agent">Agent</a>
-            <a href="#contact">Contact Us</a>
-            <button class="btnGetstarted">Get Started</button>
-        </div>
 
-        <!--Welcoming Page-->
-        <div class="body-container">
-            <div class="myText">
-                <p class="p1">Helping you find the <br> property of your <br> dreams.</p>
-                <p class="p2">Creating quality urban lifestyles,building <br>stronger communities</p>
-                <button class="learnMoreBtn">Learn More</button> <span> <img class="learnMoreImg" src="https://cdn-icons-png.flaticon.com/512/483/483054.png"></span>
-            </div>
-            
-            <div class="img1">
-                <img src="./imgs/image 1.png" alt="Main menu Image" height="100%" width="50%"></span>
-            </div>
-                                
-          </div>
+<!--Navigation Bar-->
 
-          <!--Search Properties Section-->
-          <div class="searchBox">
-            <div class="dropDown">
-                <select name="Location">
-                <option value="Lekki">Lekki</option>
-            </select>
-            </div>
-            <div class="dropDown">
-                <select name="PropertyType">
-                <option value="PropertyType">Duplex</option>
-            </select>
-            </div>
-            <div class="dropDown">
-                <select name="MaxPrice">
-                <option value="MaxPrice">$10,000</option>
-            </select>
-            </div>
-            <div class="search">
-                <button class="searchBtn">Search</button>
-            </div>
-        </div>
-
-        <!--Our Products Section-->
-        <div class="products">
-            <!--<p id="sectionTitle">How it works. <br> This is how our products works</p>-->
-           
-            <div class="ourProducts">
-                <p class="p3"><strong>Find Home</strong><br>Our properties are located at <br> prime areas where by there <br> won't be problems with <br> transportation</p>
-            </div>
-            <div class="ourProducts">
-                <p class="p3"><strong>Make payments</strong><br>Our estates comes with <br> good network, portable water, 24hrs light and round <br> the clock security. </p>
-            </div>
-            <div class="ourProducts">
-                <p class="p3"><strong>Make it Official</strong><br>We have been in business for <br>over 32 years, for client <br>outside the country you can <br>trust us to deliver well.</p>
-            </div>
-        </div>
-
-        <!--Choose Us Section-->
-        <div class="chooseUs">
-            
-            <div class="img1">
-                <img src="./imgs/image 2.png" alt="Body Image" height="100%" width="50%"></span>
-            </div>
-            <div class="myText">
-                <p class="p1">Why you should choose us.</p>
-                <p class="p2">Creating quality urban lifestyles,building stronger <br>communities</p>
-               
-            </div>
-            
-        </div>
-
-        <!--Featured Properties Section-->
-        <div class="featuredProperties">
-            <p id="featuredParagraph">Our Featured Properties</p>
-            <div class="featuredImg">
-                <img src="./imgs/image 4.png" alt="Body Image" height="100%"></span>
-            </div>
-            <div class="featuredImg">
-                <img src="./imgs/image 3.png" alt="Body Image" height="100%"></span>
-               
-            </div>
-            <div class="featuredImg">
-                <img src="./imgs/image 5.png" alt="Body Image" height="100%"></span>
-               
-            </div>
-            
-        </div>
+ <nav>  
+  <a> <h1>Vallie's Estate</h1></a>
+    <a class="active" href="#home">Home</a>
+    <a href="">Rent</a>
+    <a href="">Land</a>
+    <a href="">Agent</a>
+    <a href="">Contact Us</a>
+    <a><button class="btnGetstarted">Get Started</button></a>
+  </nav>
+<hr>
+  
+    <div class="landing">
+      <div class="flex-text-left">
         
-        <!--Customer Feedback Section-->
-        <div class="esteemedCustomers">
-           <div class="customers">
-            <p><strong>Our Esteemed Customers </strong> <br> This is what our clients are saying</p>
-        </div>
-            <div class="customerFeedback">
-                <p><strong>Alex Godwin </strong><br> South Africa <br> Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Fames ut <br> dictumst urna, lorem nibh. Pretium leo <br> hendrerit interdum netus</p>
-            </div>
-            <div class="customerFeedback">
-                <p><strong>Alex Godwin </strong><br> South Africa <br> Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Fames ut <br> dictumst urna, lorem nibh. Pretium leo <br> hendrerit interdum netus</p>
-            </div>
-            <div class="customerFeedback">
-                <p><strong>Alex Godwin </strong><br> South Africa <br> Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Fames ut <br> dictumst urna, lorem nibh. Pretium leo <br> hendrerit interdum netus</p>
-            </div>
-        </div>
-       
-        <!--Footer section-->
-        <div class="footer">
-            <!--<p id="customers"><strong>Our Esteemed Customers </strong> <br> This is what our clients are saying</p>-->
-             <div class="footerItem">
-                 <p><strong>Vallie's Estate </strong><br> Solution for easy and flexible <br> house hunting. <br> You can trust us <br> anywhere through this <br> platform</p>
-             </div>
-             <div class="footerItem">
-                 <p><strong>Property </strong><br></p>
-                 <div>
-                    <ul>
-                        <li>Learning Modules</li>
-                        <li>Partnership</li>
-                        <li>Watch Demo</li>
-                        <li>Event</li>
-                    </ul>
-                 </div>
-             </div>
-             <div class="footerItem">
-                <p><strong>About </strong><br></p>
-                <div>
-                   <ul>
-                       <li>Our Company</li>
-                       <li>Career</li>
-                       <li>Investors relations</li>
-                       <li>Social Impact</li>
-                   </ul>
-                </div>
-             </div>
-             <div class="footerItem">
-                <p><strong>Resources </strong><br></p>
-                <div>
-                   <ul>
-                       <li>Contact</li>
-                       <li>Give Feedback</li>
-                       <li>System Status</li>
-                       <li>Privacy Policy</li>
-                   </ul>
-                </div>
-            </div>
-         </div>
+        <p class="p1">Helping you find the <br> property of your <br> dreams.</p>
+        <p class="p2">Creating quality urban lifestyles,building <br>stronger communities</p>
+        <button class="learnMoreBtn">Learn More</button> <span> <img class="icon-play" src="https://cdn-icons-png.flaticon.com/512/483/483054.png"></span>
+                
+      </div>
+      <div class="flex-image-right">
+        <img src="imgs/image 1.png" alt="FLanding Page Image" height="40%">
+                 
+      </div>
+    </div>
+    <!--Select Area Property-->
+    <div class="select-property">
+      <div class="select-property-option">
+        <select name="Property Type">
+           <option selected="selected" value="Lekki">Location</option>
+           </select>
+           <p>Lekki</p>
+    </div>
+    <div class="select-property-option">
+      <select name="Property Type">
+         <option selected="selected" value="Duplex">Property Type</option>
+         </select>
+         <p>Duplex</p>
+  </div>
+  <div class="select-property-option">
+      <select name="Max Price">
+          <option selected="selected" value="price">Max Price </option>
+          </select>
+          <p>$10,000</p>
+  </div>
+  <div class="select-property-option">
+      <button class="propertybutton" type="button">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          Search</button>
+  </div>
+  </div>
 
+    <!--Our Products Section-->
+<div>
+<h2 id="h2">Our Products</h2>
+<h3 id="h3">How  it Works</h3>
+<p id="prodP">This is how our products works</p>
+</div>
+<div class="ourProducts">
+  <div class="flex-item-left">
+    <img src="imgs/address mark.png" alt="Find Home Image" height="30%">
+    <p class="p3"><strong>Find Home</strong><br>Our properties are located at <br> prime areas where by there <br> won't be problems with <br> transportation</p>
+            
+  </div>
+  <div class="flex-item-right">
+    <img src="imgs/Smart house.png" alt="Find Home Image" height="30%">
+    <p class="p3"><strong>Make payments</strong><br>Our estates comes with <br> good network, portable water, 24hrs light and round <br> the clock security. </p>
+           
+  </div>
+  <div class="flex-item-center">
+    <img src="imgs/Secure data protection with fingerprint and lock.png" alt="Find Home Image" height="30%">
+    <p class="p3"><strong>Make it Official</strong><br>We have been in business for <br>over 32 years, for client <br>outside the country you can <br>trust us to deliver well.</p>
+          
+  </div>
+</div>
+<div class="chooseUs">
+    <div class="chooseUsImg">
+      <img src="imgs/image 3.png" alt="Choose Us Image" height="50%">
+      
+              
+    </div>
+    <div class="flex-item2-right">
+        <p class="p10"><strong>Why you should choose us.</strong></p>
+            <p>Creating quality urban lifestyles, building stronger <br> communities</p>
+        <div class="listItems">
+            <ul>
+                <p><i class="fa-solid fa-square-check"></i>World Class</p>
+                <p><i class="fa-solid fa-square-check"></i>Trusted</p>
+                
+            </ul>
+        </div>
+        <div class="listItems">
+            <ul>
+              <p><i class="fa-solid fa-square-check"></i>Affordable</p>
+              <p><i class="fa-solid fa-square-check"></i>Amenities</p>
+                
+            </ul>
+        </div>
+             
+    </div>
+  </div>
+  <div>
+    <h2 id="featuredHeader">Our Featured Properties.</h2>
+    <p id="prodP">One of our biggest product to be featured and that has sold <br> out the most</p>
+    </div>
+  <div class="featuredProperties">
+    <div class="featuredImgLeft">
+      <img src="imgs/image 4.png" alt="Image 4" height="30%">
+      <div class="featuredList">
+        <ul>
+          <li><strong>The Palace</strong></li>
+          <li> Lekki, Phase 2</li>
+        </ul>
+      </div>
+      <div class="featuredList">
+          <ul>
+            <li>Duplex</li>
+            <li>$2,000</li>
+          </ul>
+        </div> 
+    </div>
+    <div class="featuredImgCenter">
+      <img src="imgs/image 3.png" alt="Image 3" height="30%">
+      <div class="featuredList">
+      <ul>
+        <li><strong>IVORY RORY</strong></li>
+        <li> Lekki, Phase 2</li>
+      </ul>
+    </div>
+    <div class="featuredList">
+        <ul>
+          <li>Duplex</li>
+          <li>$2,000</li>
+        </ul>
+      </div>  
+    </div>
+    <div class="featuredImgRight">
+      <img src="imgs/image 5.png" alt="Image 5" height="30%">
+      <div class="featuredList">
+        <ul>
+          <li><strong>REXONA</strong></li>
+          <li> Lekki, Phase 2</li>
+        </ul>
+      </div>
+      <div class="featuredList">
+          <ul>
+            <li>Duplex</li>
+            <li>$2,000</li>
+          </ul>
+        </div>
+        <div class="btnSection">
+          <button class="btn">View More</button>
+        </div>       
+    </div>
+  </div>
+
+  <!--Esteemed Customers-->
+  <div>
+    <h2 id="customersHeader">Our Esteemed Customers</h2>
+    <p id="prodP">This is what our clients are saying</p>
+    </div>
+  <div class="esteemedCustomers">
+    <div class="customerFeedbackLeft">
+        <p><strong>Alex Godwin </strong></p>
+        <p id="feedbackParagraph">South Africa</p>
+        <p id="feedbackParagraph">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Fames ut <br> dictumst urna, lorem nibh. Pretium leo <br> hendrerit interdum netus</p>
+           
+    </div>
+    <div class="customerFeedbackCenter">
+        <p><strong>Alex Godwin </strong></p>
+        <p id="feedbackParagraph">South Africa</p>
+        <p id="feedbackParagraph">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Fames ut <br> dictumst urna, lorem nibh. Pretium leo <br> hendrerit interdum netus</p>
+           
+    </div>
+    <div class="customerFeedbackRight">
+        <p><strong>Alex Godwin </strong></p>
+        <p id="feedbackParagraph">South Africa</p>
+        <p id="feedbackParagraph">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Fames ut <br> dictumst urna, lorem nibh. Pretium leo <br> hendrerit interdum netus</p>
+        <div class="btnSection">
+          <button class="btn">View More</button>
+        </div>         
     </div>
     
+  </div>
+
+  <!--Footer Section-->
+  <div class="footer">
+    <div class="footerItem">
+        <p><strong id="footerP1">Vallie's Estate</strong></p>
+        <p id="footerP3">Solution for easy and flexible <br> house hunting. <br> You can trust us <br> anywhere through this <br> platform</p>
+    </div>
+    <div class="footerItem">
+        <p><strong id="footerP2">Property </strong><br></p>
+        <div>
+           <ul>
+               <li>Learning Modules</li>
+               <li>Partnership</li>
+               <li>Watch Demo</li>
+               <li>Event</li>
+           </ul>
+        </div>
+    </div>
+    <div class="footerItem">
+       <p><strong id="footerP2">About </strong><br></p>
+       <div>
+          <ul>
+              <li>Our Company</li>
+              <li>Career</li>
+              <li>Investors relations</li>
+              <li>Social Impact</li>
+          </ul>
+       </div>
+    </div>
+    <div class="footerItem">
+       <p><strong id="footerP2">Resources </strong><br></p>
+       <div>
+          <ul>
+              <li>Contact</li>
+              <li>Give Feedback</li>
+              <li>System Status</li>
+              <li>Privacy Policy</li>
+          </ul>
+       </div>
+   </div>
+  </div>
 </body>
 </html>
